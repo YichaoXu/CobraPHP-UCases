@@ -1,10 +1,10 @@
 <?php
 
-namespace namespaceTest {
-    echo "IN NAMESPACE";
+namespace t {
+    function test(){};
 }
 
 namespace {
-    echo "IN MAIN FUNC";
+    t\test();
 }
 
