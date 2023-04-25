@@ -40,3 +40,9 @@ foreach ($arr as &$value) {
 // $arr is now array(2, 4, 6, 8)
 unset($value); // break the reference with the last element
 ?>
+
+<?php
+// Multiple for all expressions
+for ($i=0, $k=10; $i<=10, $k>=0 ; $i++, $k--) {
+    echo "Var " . $i . " is " . $k . "\n";
+}
