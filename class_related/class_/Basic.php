@@ -15,6 +15,7 @@ class Basic{
     public function __construct(){
         $readonly = true;
         $readonly2 = false;
+        self::$isStatic = false;
     }
 }
 const CONSTANT_INGLOBAL = "INGLOBAL";
