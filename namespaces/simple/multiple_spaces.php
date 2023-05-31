@@ -1,16 +1,16 @@
 <?php
-
 namespace {
-    function func(){ echo "MAIN SPACE"; }
+    B\call_some_func_underB(); // B\call
+    use A\B;
+    B\call_some_func_underB(); // A\B\call
+    use function B\call_some_func_underB;
+    call_some_func_underB(); // B\call
 }
 
-namespace TEST1 {
-    func(); // /TEST1/func
-    function func(){ echo "TEST SPACE"; }
+namespace B {
+    function call_some_func_underB(){ echo "b/call_some_func_underB" . "\n"; }
 }
 
-
-namespace TEST2 {
-    func(); // /func
+namespace A\B {
+    function call_some_func_underB(){ echo "a/b/call_some_func_underB" . "\n"; }
 }
-
