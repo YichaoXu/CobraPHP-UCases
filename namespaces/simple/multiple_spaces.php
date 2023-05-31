@@ -1,16 +1,17 @@
 <?php
 namespace {
-    B\call_some_func_underB(); // B\call
+    B\call(); // B\call
     use A\B;
-    B\call_some_func_underB(); // A\B\call
-    use function B\call_some_func_underB;
-    call_some_func_underB(); // B\call
+    B\call(); // A\B\call
+    use function B\call;
+    call(); // B\call
 }
 
 namespace B {
-    function call_some_func_underB(){ echo "b/call_some_func_underB" . "\n"; }
+    function call(){ echo "b/call" . "\n"; }
 }
 
 namespace A\B {
-    function call_some_func_underB(){ echo "a/b/call_some_func_underB" . "\n"; }
+    function call(){ echo "a/b/call" . "\n"; }
 }
+
