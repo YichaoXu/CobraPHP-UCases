@@ -13,7 +13,7 @@ namespace {
     B\callee();                     // in namespace A\B
     caller();                       // in namespace A\B
     // The B\callee() is compiled as FCALL("A\B\callee")
-    function caller(){ B\callee(); }
+    function caller(){ B\callee(); } // in namespace A\B
 }
 
 
