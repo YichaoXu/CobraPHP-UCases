@@ -6,7 +6,7 @@ namespace B{
 
 /* 
  * We define another namespace A\B. The A\B and B is completely two different namespaces, and they don't
- * have any hierachy relation. There is also a function "callee", but please notice that it is different 
+ * have any hierarchy relation. There is also a function "callee", but please notice that it is different
  * with the previous "callee" in L7.
  */
 namespace A\B {
