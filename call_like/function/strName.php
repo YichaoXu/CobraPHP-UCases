@@ -1,8 +1,4 @@
 <?php
-
-function test(){
-    echo "SOME NAME";
-}
-
+function test(){ echo "SOME NAME";}
 "test"(); // line 4
 
