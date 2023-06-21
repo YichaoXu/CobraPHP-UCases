@@ -11,7 +11,7 @@ class Outer{
         $this -> inner = new Inner();
     }
 
-    function method(): void {echo "outer method\n";}
+    function method(): void { echo "outer method\n"; }
 }
 
 
@@ -21,3 +21,4 @@ function some_func($data): void {
 }
 
 some_func(new Outer());             // line 18
+
