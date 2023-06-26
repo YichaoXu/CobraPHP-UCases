@@ -10,14 +10,13 @@ namespace A {
 }
 
 namespace B {
-    \A\first_def();
-    function caller($callee){ echo "outside of func test\n"; $callee(); }
+    \A\first_def();     // Line 2
 }
 
 namespace C{
     \A\inner_def();
-    \B\caller("\A\callee1");
-    \B\caller("\A\callee2");
+    \A\callee1();
+    \A\callee2();
 }
 
 
