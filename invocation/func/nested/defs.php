@@ -10,13 +10,13 @@ namespace A {
 }
 
 namespace B {
-    \A\first_def();     // Line 2
+    \A\first_def();     // Line 4
 }
 
 namespace C{
-    \A\inner_def();
-    \A\callee1();
-    \A\callee2();
+    \A\inner_def();     // Line 5
+    \A\callee1();       // Line 6
+    \A\callee2();       // Line 7
 }
 
 
