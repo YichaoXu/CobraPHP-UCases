@@ -1,6 +1,6 @@
 <?php
 class Test{
-    private function callee(){echo "test1\n";}
+    private function callee(){echo "test1\n"; $this->caller();}
     function caller(){ $this->callee(); }
 
 }
