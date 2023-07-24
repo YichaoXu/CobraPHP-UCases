@@ -2,12 +2,14 @@
 
 class ParentClass {
     function __construct(){ echo "Parent Construct.\n";}
-    function testMethod(){ echo "testMethod\n"; }
+    function overrideMethod(){ echo "overrideMethod\n"; }
+    function inheritMethod(){ echo "inheritMethod\n"; }
 }
-class TestClass{
+class TestClass extends ParentClass{
     function __construct(){ echo "TClass Construct.\n"; }
-    function testMethod(){ echo "testMethod\n"; }
+    function overrideMethod(){ parent::overrideMethod(); echo "overrideMethod\n"; }
 }
 
 $testVariable = new TestClass();
-$testVariable -> testMethod();
+$testVariable -> overrideMethod();
+$testVariable -> inheritMethod();

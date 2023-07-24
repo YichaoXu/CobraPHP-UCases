@@ -8,6 +8,7 @@ class ParentClass {
 
 class TestClass extends ParentClass {
     function __construct(){
+        parent::__construct();
         ParentClass::__construct();
         echo "TClass Construct.\n";
     }
