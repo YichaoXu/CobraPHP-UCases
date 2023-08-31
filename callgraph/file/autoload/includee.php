@@ -2,7 +2,7 @@
 
 class includee{
 
-    function someFunc(){ echo "include/someFunc\n"; }
+    function someFunc(){ echo "file/someFunc\n"; }
 }
 
 

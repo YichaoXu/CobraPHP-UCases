@@ -1,6 +1,6 @@
 <?php
 class Param {
-    function method(): void { echo "outer method\n"; }
+    function method(): void { echo "outer meth\n"; }
 }
 
 function some_func($data): void {
