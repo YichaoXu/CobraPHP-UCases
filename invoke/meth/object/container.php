@@ -12,4 +12,4 @@ class Container {
 
 $container = new Container(new Container(new Container(new Container(new Core()))));
 
-$container -> core -> core -> core  -> core -> target();
+$container -> core -> core -> core -> core -> target();

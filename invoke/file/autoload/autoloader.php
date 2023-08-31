@@ -6,8 +6,8 @@ function my_autoloader($class): void {
 
 spl_autoload_register('my_autoloader');
 
-$obj = new includee();
+$obj = new autoloadee();
 
 $obj->someFunc();
 
-includee();
+autoloadee();
