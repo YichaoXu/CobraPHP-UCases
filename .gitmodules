@@ -1,0 +1,3 @@
+[submodule "tarpits"]
+	path = tarpits
+	url = https://github.com/enferas/TestabilityTarpits.git
