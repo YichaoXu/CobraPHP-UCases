@@ -5,5 +5,5 @@ class TestClass{
     function testMethod(){ echo "testMethod\n"; }
 }
 
-$testVariable = new TestClass();
-$testVariable -> testMethod();
+$testVariable = new TestClass();    // L4: __construct
+$testVariable -> testMethod();      // L5: testMethod
