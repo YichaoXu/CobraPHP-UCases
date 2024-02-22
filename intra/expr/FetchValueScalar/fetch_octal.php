@@ -4,8 +4,8 @@ function num(int $n): int {
     echo "$n";
     return n;
 }
+$a = 052
+$b = num($a);
 
-$a = num(0x2A);
-
-echo "$a";
+echo "$b";
 ?>

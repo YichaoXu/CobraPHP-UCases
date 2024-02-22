@@ -1,6 +1,6 @@
 <?php
 // Function definition with parameters
-function num(flaot $n): float {
+function num(float $n): float {
     echo "$n";
     return n;
 }
