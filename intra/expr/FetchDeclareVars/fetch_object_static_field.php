@@ -5,15 +5,15 @@ class MyClass {
     public function displayStaticProperty() {
         // Accessing static property within a method
         echo self::$staticProperty;
-        $staticProperty += 1;
+        self::$staticProperty += 1;
     }
 }
 $obj1 = new MyClass();
 
-echo "$obj1::$staticProperty"
+echo "{$obj1::$staticProperty}";
 $obj1->displayStaticProperty(); 
 $intvalue = $obj1::$staticProperty;
-if($intvalue == $1) {
+if($intvalue == $obj1) {
     echo "$intvalue";
 }
 ?>

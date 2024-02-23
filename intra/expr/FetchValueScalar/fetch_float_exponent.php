@@ -2,9 +2,9 @@
 // Function definition with parameters
 function num(float $n): float {
     echo "$n";
-    return n;
+    return $n;
 }
-$a = 1.5e3
+$a = 1.5e3;
 $b = num($a);
 
 echo "$b";

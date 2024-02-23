@@ -10,7 +10,7 @@ class Person{
 }
 class Car {
     public $brand;
-    public $passenger
+    public $passenger;
     public $year;
 
     public function __construct($brand, $passenger, $year) {
@@ -26,10 +26,10 @@ $person2 = new Person("Tom", 25);
 $car1 = new Car("Toyota", $person1, 2020);
 $car2 = new Car("Honda", $person2, 2019);
 
-$firstpassenger = car1->passenger;
-$secondpassenger = car2->passenger;
-$namefirst = firstpassenger->name;
-$namesecond = secondpassenger->name;
+$firstpassenger = $car1->passenger;
+$secondpassenger = $car2->passenger;
+$namefirst = $firstpassenger->name;
+$namesecond = $secondpassenger->name;
 echo "$namefirst";
 echo "$namesecond";
 ?>

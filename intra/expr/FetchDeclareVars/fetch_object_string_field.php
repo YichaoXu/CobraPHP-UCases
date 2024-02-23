@@ -18,8 +18,8 @@ class Car {
 $car1 = new Car("Toyota", "Corolla", 2020);
 $car2 = new Car("Honda", "Civic", 2019);
 
-$car1brand = car1->brand;
-$car2brand = car2->brand;
+$car1brand = $car1->brand;
+$car2brand = $car2->brand;
 echo "Car1 brand: $car1brand";
 echo "Car2 brand: $car2brand";
 ?>

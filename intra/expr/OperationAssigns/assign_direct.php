@@ -2,7 +2,7 @@
 // Function definition with parameters
 function string(string $n): string {
     echo "$n";
-    return n;
+    return $n;
 }
 $a = "Hello, world";
 $b = $a;
@@ -12,7 +12,7 @@ echo "$c";
 
 function int(int $n): int {
     echo "$n";
-    return n;
+    return $n;
 }
 $a = 2;
 $b = $a;
@@ -22,7 +22,7 @@ echo "$c";
 
 function float(float $n): float {
     echo "$n";
-    return n;
+    return $n;
 }
 $a = 2.0;
 $b = $a;

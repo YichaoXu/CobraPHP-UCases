@@ -8,6 +8,6 @@ if($floatString == $floatString1) {
 }
 
 
-echo "$floatValue1\n"; 
+echo "$floatString1\n";
 
 ?>

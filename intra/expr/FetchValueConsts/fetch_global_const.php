@@ -1,6 +1,6 @@
 <?php
-const name = "value"
+const name = "value";
 
-echo "$name\n"; 
+echo name . "\n";
 
 ?>
