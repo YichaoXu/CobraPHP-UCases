@@ -1,7 +1,7 @@
 <?php
 
-function test_case_0() { echo "'or' works for neither true\n"; }
-function test_case_1() { echo "'or' works for only one true\n"; }
+function test_case_0() { echo "condition is false\n"; }
+function test_case_1() { echo "condition is true\n"; }
 
 // Acts like: ($a = (true && false))
 $a = true && false;
