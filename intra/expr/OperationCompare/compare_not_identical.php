@@ -58,5 +58,27 @@ $bool9 = (int)($x5 !== $y5);
 $action9 = 'test_case_' . $bool9;
 $action9();
 
+// array and array
+$bool10 = (int)([1, 0] !== [1, 2]);
+$action10 = 'test_case_' . $bool10;
+$action10();
+
+$bool11 = (int)([1, 0] !== [1]);
+$action11 = 'test_case_' . $bool11;
+$action11();
+
+$bool12 = (int)([1, 2] !== [1, 2]);
+$action12 = 'test_case_' . $bool12;
+$action12();
+
+// string and string
+$bool13 = (int)("Hello" !== "World");
+$action13 = 'test_case_' . $bool13;
+$action13();
+
+$bool14 = (int)("Hello" !== "Hello");
+$action14 = 'test_case_' . $bool14;
+$action14();
+
 ?>
 
