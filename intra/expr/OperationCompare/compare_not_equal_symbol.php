@@ -80,4 +80,22 @@ $bool14 = (int)("Hello" <> "Hello");
 $action14 = 'test_case_' . $bool14;
 $action14();
 
+// Objects
+$a = (object) ["a" => "b"];
+$b = (object) ["a" => "b"];
+$bool = (int) ($a <> $b);
+$action = 'test_case_' . $bool; // 0
+$action();
+
+$a = (object) ["a" => "b"];
+$b = (object) ["a" => "c"];
+$bool = (int) ($a <> $b);
+$action = 'test_case_' . $bool; // 1
+$action();
+
+$a = (object) ["a" => "b"];
+$b = (object) ["b" => "b"];
+$bool = (int) ($a <> $b);
+$action = 'test_case_' . $bool; // 1
+$action();
 ?>
