@@ -108,5 +108,19 @@ $action();
 $bool = (int)(false < 2); // 1
 $action = 'test_case_' . $bool;
 $action();
+
+// Float and Integer, convert to bool then compare
+$bool = (int)(1.0 < 2); // 1
+$action = 'test_case_' . $bool;
+$action();
+
+$bool = (int)(2.0 < 2); // 0
+$action = 'test_case_' . $bool;
+$action();
+
+$bool = (int)(2.2 < 2); // 0
+$action = 'test_case_' . $bool;
+$action();
+
 ?>
 
