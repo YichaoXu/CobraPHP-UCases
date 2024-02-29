@@ -8,7 +8,7 @@ function test_case_1() { echo "Statement gives 1\n"; }
 $bool = (1 <=> 1); // 0
 $action = 'test_case_' . $bool;
 $action();
-$bool = (1 <=> 2); // -1
+$bool = -(1 <=> 2); // -1
 $action = 'test_case_' . $bool;
 $action();
 $bool = (2 <=> 1); // 1
@@ -19,7 +19,7 @@ $action();
 $bool = (1.5 <=> 1.5); // 0
 $action = 'test_case_' . $bool;
 $action();
-$bool = (1.5 <=> 2.5); // -1
+$bool = -(1.5 <=> 2.5); // -1
 $action = 'test_case_' . $bool;
 $action();
 $bool = (2.5 <=> 1.5); // 1
@@ -31,7 +31,7 @@ $bool = ("a" <=> "a"); // 0
 $action = 'test_case_' . $bool;
 $action();
 
-$bool = ("a" <=> "b"); // -1
+$bool = -("a" <=> "b"); // -1
 $action = 'test_case_' . $bool;
 $action();
 
@@ -39,7 +39,7 @@ $bool = ("b" <=> "a"); // 1
 $action = 'test_case_' . $bool;
 $action();
 
-$bool = ("a" <=> "aa"); // -1
+$bool = -("a" <=> "aa"); // -1
 $action = 'test_case_' . $bool;
 $action();
 
@@ -64,7 +64,7 @@ $bool = ([1, 2, 3] <=> [1, 2, 1]); // 1
 $action = 'test_case_' . $bool;
 $action();
 
-$bool = ([1, 2, 3] <=> [1, 2, 4]); // -1
+$bool = -([1, 2, 3] <=> [1, 2, 4]); // -1
 $action = 'test_case_' . $bool;
 $action();
 
@@ -77,7 +77,7 @@ $action();
 
 $a = (object) ["a" => "b"];
 $b = (object) ["a" => "c"];
-$bool = ($a <=> $b); // -1
+$bool = -($a <=> $b); // -1
 $action = 'test_case_' . $bool;
 $action();
 
@@ -92,6 +92,37 @@ $b = (object) ["b" => "b"];
 $bool = ($a <=> $b); // 1
 $action = 'test_case_' . $bool;
 $action();
+
+// Boolean and Integer, convert to bool then compare
+$bool = (true <=> 2); // 0
+$action = 'test_case_' . $bool;
+$action();
+
+$bool = (2 <=> true); // 0
+$action = 'test_case_' . $bool;
+$action();
+
+$bool = (2 <=> false); // 1
+$action = 'test_case_' . $bool;
+$action();
+
+$bool = -(false <=> 2); // -1
+$action = 'test_case_' . $bool;
+$action();
+
+// Float and Integer, convert to bool then compare
+$bool = -(1.0 <=> 2); // -1
+$action = 'test_case_' . $bool;
+$action();
+
+$bool = (2.0 <=> 2); // 0
+$action = 'test_case_' . $bool;
+$action();
+
+$bool = (2.2 <=> 2); // 1
+$action = 'test_case_' . $bool;
+$action();
+
 ?>
 
 
