@@ -22,4 +22,3 @@ $car1year = $car1->year;
 $car2year = $car2->year;
 echo "Car1 year: $car1year";
 echo "Car2 year: $car2year";
-?>

@@ -9,5 +9,3 @@ if($floatNumber == $floatNumber) {
 
 
 echo "$floatValue1\n"; 
-
-?>

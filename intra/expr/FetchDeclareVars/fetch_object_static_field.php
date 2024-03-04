@@ -2,7 +2,7 @@
 class MyClass {
     public static $staticProperty = 0;
     
-    public function displayStaticProperty() {
+    public function displayStaticProperty(){
         // Accessing static property within a method
         echo self::$staticProperty;
         self::$staticProperty += 1;
@@ -16,4 +16,3 @@ $intvalue = $obj1::$staticProperty;
 if($intvalue == $obj1) {
     echo "$intvalue";
 }
-?>
