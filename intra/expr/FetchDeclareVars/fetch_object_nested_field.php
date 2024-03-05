@@ -32,4 +32,3 @@ $namefirst = $firstpassenger->name;
 $namesecond = $secondpassenger->name;
 echo "$namefirst";
 echo "$namesecond";
-?>

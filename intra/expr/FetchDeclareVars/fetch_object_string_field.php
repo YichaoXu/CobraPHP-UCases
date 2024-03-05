@@ -22,4 +22,3 @@ $car1brand = $car1->brand;
 $car2brand = $car2->brand;
 echo "Car1 brand: $car1brand";
 echo "Car2 brand: $car2brand";
-?>
