@@ -10,7 +10,7 @@ $b = 3;
 $action = 'test_case_'.($a / $b);
 $action();
 
-$action = 'test_case_'.(10 *($b / $a));
+$action = 'test_case_'.(10 * ($b / $a));
 $action();
 
 $a = 1.75;
