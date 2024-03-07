@@ -31,8 +31,4 @@ $secondpassenger = $car2->passenger;
 $namefirst = $firstpassenger->name;
 $namesecond = $secondpassenger->name;
 echo "$namefirst";
-<<<<<<< HEAD
 echo "$namesecond";
-=======
-echo "$namesecond";
->>>>>>> yichao-dev
