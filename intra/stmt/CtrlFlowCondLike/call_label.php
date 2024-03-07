@@ -1,5 +1,5 @@
 <?php
-
+#I did not understand why this file is in control flow condition like test
 
 function one_param_1($param): void {
     $param($_GET["user_input"]);
