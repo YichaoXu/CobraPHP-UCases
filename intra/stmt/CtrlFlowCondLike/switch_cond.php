@@ -24,7 +24,7 @@ function dosomething($a) {
     default:
         $user_input = new Safe();
 	}
-	return $user_input
+	return $user_input;
 }
 
 $b = dosomething(1);
