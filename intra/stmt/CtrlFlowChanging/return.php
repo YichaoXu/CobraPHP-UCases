@@ -13,7 +13,7 @@ $user_input = new Safe();
 function dosomething(Safe $a) {
 	$a -> suspect();
 	$a = new Vulnerable();
-	$a - > suspect();
+	$a -> suspect();
 	return $a;
 }
 $b = dosomething($user_input);
