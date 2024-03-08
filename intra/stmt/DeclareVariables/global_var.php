@@ -7,4 +7,4 @@ function caller() {
     $a(); 
 }
 
-callee();
+caller();
