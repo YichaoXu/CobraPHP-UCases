@@ -1,8 +1,10 @@
 <?php
-global $a = 0;
-function test_case_0() { echo "0\n"; }
+$a = "callee";
+function callee() { echo "CALLEE\n"; } 
 
-$action = 'test_case_' . ($a);
-$action();
+function caller() { 
+    global $a; 
+    $a(); 
+}
 
-?>
+callee();
