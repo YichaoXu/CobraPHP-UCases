@@ -10,7 +10,7 @@ class Vulnerable {
 
 $user_input = new Safe();
 
-function dosomething(Safe: $a) {
+function dosomething(Safe $a) {
 	$a -> suspect();
 	$a = new Vulnerable();
 	$a - > suspect();
