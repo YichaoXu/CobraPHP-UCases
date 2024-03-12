@@ -10,7 +10,7 @@ class MyClass {
 }
 $obj1 = new MyClass();
 
-echo "${obj1::staticProperty}";
+echo "{$obj1::$staticProperty}";
 $obj1->displayStaticProperty();
 $intvalue = $obj1::$staticProperty;
 if($intvalue == $obj1) {

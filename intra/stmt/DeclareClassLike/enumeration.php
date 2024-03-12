@@ -1,44 +1,24 @@
 <?php
 
-interface Shape {
-    public function calculateArea();
+enum MyExceptionCase {
+    case InvalidMethod;
+    case InvalidProperty;
+    case Timeout;
 }
 
-class Circle implements Shape {
-    private $radius;
-
-    public function __construct($radius) {
-        $this->radius = $radius;
-    }
-
-    public function calculateArea() {
-        return 3 * $this->radius * $this->radius; 
-    }
-}
-
-class Rectangle implements Shape {
-    private $width;
-    private $height;
-
-    public function __construct($width, $height) {
-        $this->width = $width;
-        $this->height = $height;
-    }
-
-    public function calculate_area() {
-        return $this->width * $this->height; 
+class MyException extends Exception {
+    function __construct(private MyExceptionCase $case){
+        match($case){
+            MyExceptionCase::InvalidMethod      =>    parent::__construct("Bad Request - Invalid Method", 400),
+            MyExceptionCase::InvalidProperty    =>    parent::__construct("Bad Request - Invalid Property", 400),
+            MyExceptionCase::Timeout            =>    parent::__construct("Bad Request - Timeout", 400)
+        };
     }
 }
 
-enum Calculation: Shape {
-    case round: new Circle(5);
-    case other: new Rectangle(5, 5);
+// Testing my custom exception class
+try {
+    throw new MyException(MyExceptionCase::InvalidMethod);
+} catch (MyException $myE) {
+    echo $myE->getMessage();  // Bad Request - Invalid Method
 }
-$a = (Calculation::round) ->value;
-$b = (Calculation::other) ->value;
-
-$a -> calculate_area();
-$b -> calculate_area();
-
-
-?>

@@ -44,14 +44,14 @@ function get_area(Shape $shape) {
 
 $test = null;
 $circle = new Circle(5);
-$b = get_area(circle);
+$b = get_area($circle);
 if($b == 75) {
     $test = new Safe();
     $test -> suspect();
 }
 
 $rec = new Rectangle(5, 5);
-$b = get_area(circle);
+$b = get_area($circle);
 if($b == 25) {
     $test = new Vulnerable();
     $test -> suspect();

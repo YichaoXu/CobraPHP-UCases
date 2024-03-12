@@ -13,7 +13,7 @@ $user_input = new Safe();
 $b = 0;
 
 for ($i = 1; $i <= 10; $i++) {
-    $b += i;
+    $b += $i;
 }
 
 if($b == 55) {

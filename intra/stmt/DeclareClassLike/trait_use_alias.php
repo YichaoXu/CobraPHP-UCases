@@ -12,8 +12,8 @@ trait Greeting {
 
 class MyClass {
     use Greeting {
-        sayHello as public greet;
-        sayGoodbye as public bidFarewell;
+        Greeting::sayHello as public greet;
+        Greeting::sayGoodbye as public bidFarewell;
     }
 }
 

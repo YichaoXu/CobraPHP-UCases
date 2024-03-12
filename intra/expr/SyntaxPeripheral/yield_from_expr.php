@@ -10,7 +10,7 @@ function countTo() {
 $generator = countTo();
 $array = [];
 foreach ($generator as $value) {
-    array_push($array, $value)
+    array_push($array, $value);
 }
 [$a, $b, $c] = $array;
 $action = 'test_case_'.($a);
