@@ -9,17 +9,17 @@ class Vulnerable {
 }
 
 $user_input = new Safe();
+$b = 0;
 
-if (true) {
-    $user_input = new Vulnerable();
-    $user_input -> suspect();
+$numbers = range(1, 10);
+
+// Iterate through the array using foreach loop
+foreach ($numbers as $number) {
+    $b += $number;
 }
 
-$user_input -> suspect();
-
-if (false) {
-    $user_input = new Vulnerable();
-    $user_input -> suspect();
+if($b == 55) {
+	$user_input = new Vulnerable();
 }
 
 $user_input -> suspect();

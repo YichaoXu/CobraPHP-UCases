@@ -10,16 +10,17 @@ class Vulnerable {
 
 $user_input = new Safe();
 
-if (true) {
-    $user_input = new Vulnerable();
-    $user_input -> suspect();
+$i = 1;
+$b = 0;
+
+
+while ($i <= 10) {
+    $b += $i;
+    $i++; 
 }
 
-$user_input -> suspect();
-
-if (false) {
-    $user_input = new Vulnerable();
-    $user_input -> suspect();
+if($b == 55) {
+	$user_input = new Vulnerable();
 }
 
 $user_input -> suspect();

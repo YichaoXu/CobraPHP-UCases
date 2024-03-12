@@ -10,15 +10,10 @@ class Vulnerable {
 
 $user_input = new Safe();
 
-if (true) {
+if ($user_input["cond"]) {
     $user_input = new Vulnerable();
     $user_input -> suspect();
-}
-
-$user_input -> suspect();
-
-if (false) {
-    $user_input = new Vulnerable();
+} else {
     $user_input -> suspect();
 }
 
