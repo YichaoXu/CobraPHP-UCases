@@ -7,17 +7,8 @@ function countTo() {
     $array = [1, 2, 3];
     yield from $array;
 }
-$generator = countTo();
-$array = [];
-foreach ($generator as $value) {
-    array_push($array, $value);
+foreach(countTo() as $a) {
+    $action = 'test_case_'.($a);
+    $action();
 }
-[$a, $b, $c] = $array;
-$action = 'test_case_'.($a);
-$action();
-$action = 'test_case_'.($b);
-$action();
-$action = 'test_case_'.($c);
-$action();
-
 ?>
