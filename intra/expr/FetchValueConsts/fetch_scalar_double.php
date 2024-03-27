@@ -1,5 +1,4 @@
 <?php
-
 function func_1234() { echo ("Format 1 worked.\n"); }
 function func_1200() { echo ("Format 2 worked.\n"); }
 function func_7() { echo ("Format 3 worked.\n"); }
