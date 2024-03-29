@@ -1,5 +1,6 @@
 <?php
-function func_FetchValueConsts(){ echo "fetch line const success\n"; }
-$var = "func_". __DIR__;
+function func_FetchValueConsts(){ echo "fetch directory name success\n"; }
+$var = substr(__DIR__, 1);
+$var = "func_". $var;
 $var();
 ?>
