@@ -1,6 +1,6 @@
 <?php
 function func_314(){ echo "fetch PI classfield success\n"; }
-function func_Hello(){ echo "fetch GREETING classfield success\n"; }
+function func_hello(){ echo "fetch GREETING classfield success\n"; }
 class Example {
     const PI = 3.14;
     const GREETING = "Hello";
