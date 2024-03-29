@@ -5,12 +5,4 @@ function test() {
     $var();
 }
 test();
-class BaseClass {
-    function test_new() {
-        $var = "func_".__FUNCTION__;
-        $var();
-    }
-}
-$var = new BaseClass();
-$var->test_new();
 ?>
