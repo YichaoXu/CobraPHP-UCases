@@ -1,8 +1,8 @@
 <?php
-function Base_Class() { echo "fetch classname success"; }
+function func_BaseClass() { echo "fetch classname success"; }
 class BaseClass {
     function func() {
-        $var = __CLASS__;
+        $var = "func_".__CLASS__;
         $var();
     }
 }
