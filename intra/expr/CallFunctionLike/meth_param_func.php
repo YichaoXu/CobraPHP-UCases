@@ -1,14 +1,21 @@
 <?php
-class Param {
-    function method(): void { echo "outer meth\n"; }
+
+class Param
+{
+    function method(): void
+    {
+        echo "outer meth\n";
+    }
 }
 
-function some_func($data): void {
-    $data -> method();              // line 3
+function some_func($data): void
+{
+    $data->method();              // line 3
 }
 
-function some_func2(Param $data) {
-    $data -> method();              // line 7
+function some_func2(Param $data)
+{
+    $data->method();              // line 7
 }
 
 some_func(new Param()); // line 2

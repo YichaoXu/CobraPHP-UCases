@@ -1,21 +1,36 @@
 <?php
 
-class Createe { function action() { echo "ACTION\n"; } }
-
-class Creator {
-
-    function createe() { return new Createe(); }
-
-    function action() {
-        $createe = $this -> createe();
-        $createe -> action();
+class Createe
+{
+    function action()
+    {
+        echo "ACTION\n";
     }
-    function linked(){ $this -> createe() -> action(); }
+}
+
+class Creator
+{
+
+    function linked()
+    {
+        $this->createe()->action();
+    }
+
+    function action()
+    {
+        $createe = $this->createe();
+        $createe->action();
+    }
+
+    function createe()
+    {
+        return new Createe();
+    }
 }
 
 $creator = new Creator();
-$creator -> action();
-$creator -> linked();
+$creator->action();
+$creator->linked();
 
 
 

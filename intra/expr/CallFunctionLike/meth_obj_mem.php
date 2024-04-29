@@ -1,6 +1,11 @@
 <?php
-class Test{
-    function caller() { echo "callee\n"; }
+
+class Test
+{
+    function caller()
+    {
+        echo "callee\n";
+    }
 }
 
 
