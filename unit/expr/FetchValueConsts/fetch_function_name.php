@@ -5,4 +5,3 @@ function test() {
     $var();
 }
 test();
-?>
