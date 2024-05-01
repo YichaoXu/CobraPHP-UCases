@@ -1,11 +1,14 @@
 <?php
 
-trait Greeting {
-    public function sayHello() {
+trait Greeting
+{
+    public function sayHello()
+    {
         echo "Hello, ";
     }
 
-    public function sayGoodbye() {
+    public function sayGoodbye()
+    {
         echo "Goodbye!";
     }
 }

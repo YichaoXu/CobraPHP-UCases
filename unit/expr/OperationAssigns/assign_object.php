@@ -1,15 +1,19 @@
 <?php
-class Person{
+
+class Person
+{
     public $name;
     public $age;
 
-    public function __construct($name, $age) {
+    public function __construct($name, $age)
+    {
         $this->name = $name;
         $this->age = $age;
     }
 }
 
-function dosomething(Person $n): Person {
+function dosomething(Person $n): Person
+{
     echo "$n->name";
     echo "$n->age";
     return $n;

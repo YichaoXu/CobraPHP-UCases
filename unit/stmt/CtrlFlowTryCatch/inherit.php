@@ -1,5 +1,8 @@
 <?php
-class SpecialException extends Exception {}
+
+class SpecialException extends Exception
+{
+}
 
 try {
     echo "In Try";

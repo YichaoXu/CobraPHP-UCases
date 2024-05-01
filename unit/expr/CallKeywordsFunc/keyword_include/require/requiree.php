@@ -1,6 +1,11 @@
 <?php
-namespace n01;      // declare the file in n01;
-function requiree_func(){ echo "requiree\n"; }
+
+namespace n01;
+// declare the file in n01;
+function requiree_func()
+{
+    echo "requiree\n";
+}
 
 ///*
 // * The following calls work well because the file was

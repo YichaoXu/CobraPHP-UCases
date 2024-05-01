@@ -1,6 +1,11 @@
 <?php
-class SpecialException {
-    function getMessage() { return "SPECIAL EXCEPTION"; }
+
+class SpecialException
+{
+    function getMessage()
+    {
+        return "SPECIAL EXCEPTION";
+    }
 }
 
 try {

@@ -1,25 +1,33 @@
 <?php
 
-class Safe{
-    function suspect(){ echo "SAFE"; }
+class Safe
+{
+    function suspect()
+    {
+        echo "SAFE";
+    }
 }
 
-class Vulnerable {
-    function suspect() { echo $_GET["user_input"]; }
+class Vulnerable
+{
+    function suspect()
+    {
+        echo $_GET["user_input"];
+    }
 }
 
 $b = null;
 
 
 $b = new Vulnerable();
-$b -> suspect();
+$b->suspect();
 
 goto end;
 
 $b = new Safe();
-$b -> suspect();
+$b->suspect();
 
 end:
-$b -> suspect();
+$b->suspect();
 
 ?>

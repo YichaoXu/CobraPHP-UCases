@@ -1,7 +1,18 @@
 <?php
-function test_case_0() { echo "bitwise and gives 0\n"; }
-function test_case_1() { echo "bitwise and gives 1\n"; }
-function test_case_4() { echo "bitwise and gives 4\n"; }
+function test_case_0()
+{
+    echo "bitwise and gives 0\n";
+}
+
+function test_case_1()
+{
+    echo "bitwise and gives 1\n";
+}
+
+function test_case_4()
+{
+    echo "bitwise and gives 4\n";
+}
 
 $action = 'test_case_' . (0 & 5); // 0, (0 = 0000) = (0 = 0000) & (5 = 0101)
 $action();

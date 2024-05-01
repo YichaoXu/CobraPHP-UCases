@@ -1,7 +1,13 @@
 <?php
-function echo_info_1() { echo "Hello world 1!"; }
+function echo_info_1()
+{
+    echo "Hello world 1!";
+}
 
-function echo_info_2() { echo "Hello world 2!"; }
+function echo_info_2()
+{
+    echo "Hello world 2!";
+}
 
 $a = null;
 $b = null;

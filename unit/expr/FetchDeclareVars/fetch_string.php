@@ -3,7 +3,7 @@ $floatString = "astnode";
 
 $floatString1 = $floatString;
 
-if($floatString == $floatString1) {
+if ($floatString == $floatString1) {
     echo "Fetch value successful\n";
 }
 

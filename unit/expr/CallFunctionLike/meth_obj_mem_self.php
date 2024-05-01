@@ -2,13 +2,13 @@
 
 class Test
 {
-    private function callee($data): Void
+    private function callee($data): void
     {
         echo "callee\n" . $data;
         $this->caller($data);
     }
 
-    function caller($data): Void
+    function caller($data): void
     {
         echo "caller\n" . $data;
         $this->callee($data);

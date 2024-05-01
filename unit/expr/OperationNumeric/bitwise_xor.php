@@ -1,9 +1,28 @@
 <?php
-function test_case_1() { echo "bitwise xor gives 1\n"; }
-function test_case_4() { echo "bitwise xor gives 4\n"; }
-function test_case_5() { echo "bitwise xor gives 5\n"; }
-function test_case_7() { echo "bitwise xor gives 7\n"; }
-function test_case_13() { echo "bitwise xor gives 13\n"; }
+function test_case_1()
+{
+    echo "bitwise xor gives 1\n";
+}
+
+function test_case_4()
+{
+    echo "bitwise xor gives 4\n";
+}
+
+function test_case_5()
+{
+    echo "bitwise xor gives 5\n";
+}
+
+function test_case_7()
+{
+    echo "bitwise xor gives 7\n";
+}
+
+function test_case_13()
+{
+    echo "bitwise xor gives 13\n";
+}
 
 $action = 'test_case_' . (0 ^ 5); // 5, (5 = 0101) = (0 = 0000) ^ (5 = 0101)
 $action();

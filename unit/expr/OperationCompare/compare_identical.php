@@ -1,6 +1,13 @@
 <?php
-function test_case_0() { echo "Statement is false\n"; }
-function test_case_1() { echo "Statement is true\n"; }
+function test_case_0()
+{
+    echo "Statement is false\n";
+}
+
+function test_case_1()
+{
+    echo "Statement is true\n";
+}
 
 // boolean and integer
 $a = true;
@@ -81,21 +88,21 @@ $action14 = 'test_case_' . $bool14;
 $action14();
 
 // Objects
-$a = (object) ["a" => "b"];
-$b = (object) ["a" => "b"];
-$bool = (int) ($a === $b);
+$a = (object)["a" => "b"];
+$b = (object)["a" => "b"];
+$bool = (int)($a === $b);
 $action = 'test_case_' . $bool; // 0, though I do not know why it is not identical
 $action();
 
-$a = (object) ["a" => "b"];
-$b = (object) ["a" => "c"];
-$bool = (int) ($a === $b);
+$a = (object)["a" => "b"];
+$b = (object)["a" => "c"];
+$bool = (int)($a === $b);
 $action = 'test_case_' . $bool; // 0
 $action();
 
-$a = (object) ["a" => "b"];
-$b = (object) ["b" => "b"];
-$bool = (int) ($a === $b);
+$a = (object)["a" => "b"];
+$b = (object)["b" => "b"];
+$bool = (int)($a === $b);
 $action = 'test_case_' . $bool; // 0
 $action();
 

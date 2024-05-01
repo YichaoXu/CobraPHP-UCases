@@ -1,19 +1,25 @@
 <?php
-class Person{
+
+class Person
+{
     public $name;
     public $age;
 
-    public function __construct($name, $age) {
+    public function __construct($name, $age)
+    {
         $this->name = $name;
         $this->age = $age;
     }
 }
-class Car {
+
+class Car
+{
     public $brand;
     public $passenger;
     public $year;
 
-    public function __construct($brand, $passenger, $year) {
+    public function __construct($brand, $passenger, $year)
+    {
         $this->brand = $brand;
         $this->passenger = $passenger;
         $this->year = $year;

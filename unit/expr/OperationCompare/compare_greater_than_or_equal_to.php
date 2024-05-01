@@ -1,94 +1,101 @@
 <?php
 
-function test_case_0() { echo "Statement gives 0\n"; }
-function test_case_1() { echo "Statement gives 1\n"; }
+function test_case_0()
+{
+    echo "Statement gives 0\n";
+}
+
+function test_case_1()
+{
+    echo "Statement gives 1\n";
+}
 
 // Integers
-$bool = (int) (1 >= 1); // 1
+$bool = (int)(1 >= 1); // 1
 $action = 'test_case_' . $bool;
 $action();
-$bool = (int) (1 >= 2); // 0
+$bool = (int)(1 >= 2); // 0
 $action = 'test_case_' . $bool;
 $action();
-$bool = (int) (2 >= 1); // 1
+$bool = (int)(2 >= 1); // 1
 $action = 'test_case_' . $bool;
 $action();
 
 // Floats
-$bool = (int) (1.5 >= 1.5); // 1
+$bool = (int)(1.5 >= 1.5); // 1
 $action = 'test_case_' . $bool;
 $action();
-$bool = (int) (1.5 >= 2.5); // 0
+$bool = (int)(1.5 >= 2.5); // 0
 $action = 'test_case_' . $bool;
 $action();
-$bool = (int) (2.5 >= 1.5); // 1
+$bool = (int)(2.5 >= 1.5); // 1
 $action = 'test_case_' . $bool;
 $action();
 
 // Strings
-$bool = (int) ("a" >= "a"); // 1
+$bool = (int)("a" >= "a"); // 1
 $action = 'test_case_' . $bool;
 $action();
 
-$bool = (int) ("a" >= "b"); // 0
+$bool = (int)("a" >= "b"); // 0
 $action = 'test_case_' . $bool;
 $action();
 
-$bool = (int) ("b" >= "a"); // 1
+$bool = (int)("b" >= "a"); // 1
 $action = 'test_case_' . $bool;
 $action();
 
-$bool = (int) ("a" >= "aa"); // 0
+$bool = (int)("a" >= "aa"); // 0
 $action = 'test_case_' . $bool;
 $action();
 
-$bool = (int) ("zz" >= "aa"); // 1
+$bool = (int)("zz" >= "aa"); // 1
 $action = 'test_case_' . $bool;
 $action();
 
 // Arrays
-$bool = (int) ([] >= []); // 1
+$bool = (int)([] >= []); // 1
 $action = 'test_case_' . $bool;
 $action();
 
-$bool = (int) ([1, 2, 3] >= [1, 2, 3]); // 1
+$bool = (int)([1, 2, 3] >= [1, 2, 3]); // 1
 $action = 'test_case_' . $bool;
 $action();
 
-$bool = (int) ([1, 2, 3] >= []); // 1
+$bool = (int)([1, 2, 3] >= []); // 1
 $action = 'test_case_' . $bool;
 $action();
 
-$bool = (int) ([1, 2, 3] >= [1, 2, 1]); // 1
+$bool = (int)([1, 2, 3] >= [1, 2, 1]); // 1
 $action = 'test_case_' . $bool;
 $action();
 
-$bool = (int) ([1, 2, 3] >= [1, 2, 4]); // 0
+$bool = (int)([1, 2, 3] >= [1, 2, 4]); // 0
 $action = 'test_case_' . $bool;
 $action();
 
 // Objects
-$a = (object) ["a" => "b"];
-$b = (object) ["a" => "b"];
-$bool = (int) ($a >= $b); // 1
+$a = (object)["a" => "b"];
+$b = (object)["a" => "b"];
+$bool = (int)($a >= $b); // 1
 $action = 'test_case_' . $bool;
 $action();
 
-$a = (object) ["a" => "b"];
-$b = (object) ["a" => "c"];
-$bool = (int) ($a >= $b); // 0
+$a = (object)["a" => "b"];
+$b = (object)["a" => "c"];
+$bool = (int)($a >= $b); // 0
 $action = 'test_case_' . $bool;
 $action();
 
-$a = (object) ["a" => "c"];
-$b = (object) ["a" => "b"];
-$bool = (int) ($a >= $b); // 1
+$a = (object)["a" => "c"];
+$b = (object)["a" => "b"];
+$bool = (int)($a >= $b); // 1
 $action = 'test_case_' . $bool;
 $action();
 
-$a = (object) ["a" => "b"];
-$b = (object) ["b" => "b"];
-$bool = (int) ($a >= $b); // 0
+$a = (object)["a" => "b"];
+$b = (object)["b" => "b"];
+$bool = (int)($a >= $b); // 0
 $action = 'test_case_' . $bool;
 $action();
 

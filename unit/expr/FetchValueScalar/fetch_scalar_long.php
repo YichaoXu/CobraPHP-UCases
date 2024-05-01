@@ -1,20 +1,20 @@
 <?php
-function func_1234($data): Void
+function func_1234($data): void
 {
     echo("Decimal worked. $data");
 }
 
-function func_83($data): Void
+function func_83($data): void
 {
     echo("Octal worked. $data");
 }
 
-function func_26($data): Void
+function func_26($data): void
 {
     echo("Hexadecimal worked. $data");
 }
 
-function func_255($data): Void
+function func_255($data): void
 {
     echo("Binary worked. $data");
 }

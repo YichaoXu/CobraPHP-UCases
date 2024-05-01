@@ -1,6 +1,7 @@
 <?php
 
-function my_autoloader($class): void {
+function my_autoloader($class): void
+{
     include './' . $class . '.php';
 }
 

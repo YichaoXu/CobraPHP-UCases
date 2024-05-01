@@ -3,8 +3,8 @@ $floatNumber = 10.8;
 
 $floatValue1 = $floatNumber;
 
-if($floatNumber == $floatNumber) {
-	echo "Fetch value successful\n";
+if ($floatNumber == $floatNumber) {
+    echo "Fetch value successful\n";
 }
 
 

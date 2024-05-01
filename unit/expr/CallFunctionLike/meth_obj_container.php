@@ -32,8 +32,8 @@ $sec_data = "security-data";
 $core_vul = new Core($vul_data);
 $core_sec = new Core($sec_data);
 
-$core_vul -> target();
-$core_sec -> target();
+$core_vul->target();
+$core_sec->target();
 
 $container1 = new Container(new Container(new Container(new Container($core_vul))));
 $container1->core->core->core->core->target();

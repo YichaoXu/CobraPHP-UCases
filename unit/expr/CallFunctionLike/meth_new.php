@@ -4,7 +4,7 @@ class TestClass
 {
     function __construct($data)
     {
-        echo "TClass Construct.\n". $data;
+        echo "TClass Construct.\n" . $data;
     }
 }
 

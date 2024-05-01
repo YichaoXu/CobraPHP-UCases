@@ -1,11 +1,19 @@
 <?php
 
-class Safe{
-    function suspect(){ echo "SAFE"; }
+class Safe
+{
+    function suspect()
+    {
+        echo "SAFE";
+    }
 }
 
-class Vulnerable {
-    function suspect() { echo $_GET["user_input"]; }
+class Vulnerable
+{
+    function suspect()
+    {
+        echo $_GET["user_input"];
+    }
 }
 
 $user_input = new Safe();
@@ -16,10 +24,10 @@ for ($i = 1; $i <= 10; $i++) {
     $b += $i;
 }
 
-if($b == 55) {
-	$user_input = new Vulnerable();
+if ($b == 55) {
+    $user_input = new Vulnerable();
 }
 
-$user_input -> suspect();
+$user_input->suspect();
 
 ?>

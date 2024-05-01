@@ -1,7 +1,18 @@
 <?php
-function test_case_0() { echo "bitwise right shift gives 0\n"; }
-function test_case_1() { echo "bitwise right shift gives 1\n"; }
-function test_case_2() { echo "bitwise right shift gives 2\n"; }
+function test_case_0()
+{
+    echo "bitwise right shift gives 0\n";
+}
+
+function test_case_1()
+{
+    echo "bitwise right shift gives 1\n";
+}
+
+function test_case_2()
+{
+    echo "bitwise right shift gives 2\n";
+}
 
 $action = 'test_case_' . (4 >> 1); // 2
 $action();

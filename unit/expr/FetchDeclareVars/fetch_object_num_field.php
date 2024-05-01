@@ -1,16 +1,20 @@
 <?php
-class Car {
+
+class Car
+{
     public $brand;
     public $model;
     public $year;
 
-    public function __construct($brand, $model, $year) {
+    public function __construct($brand, $model, $year)
+    {
         $this->brand = $brand;
         $this->model = $model;
         $this->year = $year;
     }
 
-    public function displayInfo() {
+    public function displayInfo()
+    {
         echo "Brand: {$this->brand}, Model: {$this->model}, Year: {$this->year}<br>";
     }
 }

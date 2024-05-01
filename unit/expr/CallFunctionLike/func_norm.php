@@ -1,7 +1,7 @@
 <?php
 function basic_func($data)
 {
-    echo "Some data ". $data;
+    echo "Some data " . $data;
 }
 
 $vul_data = $_GET["user-input"];

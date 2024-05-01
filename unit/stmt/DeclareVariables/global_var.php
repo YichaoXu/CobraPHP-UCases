@@ -1,10 +1,14 @@
 <?php
 $a = "callee";
-function callee() { echo "CALLEE\n"; } 
+function callee()
+{
+    echo "CALLEE\n";
+}
 
-function caller() { 
-    global $a; 
-    $a(); 
+function caller()
+{
+    global $a;
+    $a();
 }
 
 caller();

@@ -1,7 +1,12 @@
 <?php
 
-function test_case_0() { echo "0\n"; }
-class MyClass {
+function test_case_0()
+{
+    echo "0\n";
+}
+
+class MyClass
+{
     const A = 0;
 }
 

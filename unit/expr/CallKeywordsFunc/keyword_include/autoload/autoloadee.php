@@ -1,9 +1,16 @@
 <?php
 
-class autoloadee{
+class autoloadee
+{
 
-    function someFunc(){ echo "file/someFunc\n"; }
+    function someFunc()
+    {
+        echo "file/someFunc\n";
+    }
 }
 
 
-function autoloadee(): void{ echo "includee\n"; }
+function autoloadee(): void
+{
+    echo "includee\n";
+}

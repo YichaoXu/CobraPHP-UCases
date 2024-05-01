@@ -3,5 +3,5 @@ $intValue = 10;
 
 $floatValue = (float)$intValue;
 
-echo "(float) cast: $floatValue\n"; 
+echo "(float) cast: $floatValue\n";
 ?>

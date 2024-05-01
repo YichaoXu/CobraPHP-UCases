@@ -2,20 +2,20 @@
 
 class Test
 {
-    function caller($data): Void
+    function caller($data): void
     {
         $this->callee1($data);
     }
 
-    private function callee1($data): Void
+    private function callee1($data): void
     {
         echo "callee1\n";
         $this->callee2($data);
     } // L3
 
-    private function callee2($data): Void
+    private function callee2($data): void
     {
-        echo "callee2\n". $data;
+        echo "callee2\n" . $data;
     }
 
 }

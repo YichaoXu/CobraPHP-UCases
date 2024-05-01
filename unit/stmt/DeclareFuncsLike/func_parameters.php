@@ -1,14 +1,17 @@
 <?php
 
-class Person {
+class Person
+{
 
-    public function greeting() {
-        echo "Hello world \n"; 
+    public function greeting()
+    {
+        echo "Hello world \n";
     }
 }
 
-function dosomething(Person $p) {
-    $p -> greeting();
+function dosomething(Person $p)
+{
+    $p->greeting();
 }
 
 ?>

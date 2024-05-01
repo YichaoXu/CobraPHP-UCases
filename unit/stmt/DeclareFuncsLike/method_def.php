@@ -1,14 +1,20 @@
 <?php
 
-function greeting() { return; }
-class Person {
+function greeting()
+{
+    return;
+}
 
-    public function greeting() {
-        echo "Hello world \n"; 
+class Person
+{
+
+    public function greeting()
+    {
+        echo "Hello world \n";
     }
 }
 
 $p = new Person();
-$p -> greeting();
+$p->greeting();
 
 ?>
