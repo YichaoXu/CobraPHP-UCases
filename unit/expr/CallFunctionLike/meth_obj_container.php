@@ -23,6 +23,11 @@ class Container
     {
         $this->core = $outCore;
     }
+
+    public function middle_target()
+    {
+        $this->core->core->target();
+    }
 }
 
 
@@ -37,6 +42,8 @@ $core_sec->target();
 
 $container1 = new Container(new Container(new Container(new Container($core_vul))));
 $container1->core->core->core->core->target();
+$container1->core->core->middle_target();
 
 $container2 = new Container(new Container(new Container(new Container($core_sec))));
 $container2->core->core->core->core->target();
+$container2->core->core->middle_target();
