@@ -1,31 +1,44 @@
 <?php
 
-function targetA()
+function targetA($data): void
 {
-    echo "TARGET A";
+    echo "TARGET A" . $data;
 }
 
-function targetB()
+function targetB($data): void
 {
-    echo "TARGET B";
+    echo "TARGET B" . $data;
 }
 
 class MyClass
 {
-    public $property;
+    public string $data;
+    public string $callee;
 
-    function call()
+    function __construct($data)
     {
-        ($this->property)();
+        $this->data = $data;
+    }
+
+    function call(string $data): void
+    {
+        ($this->callee)($data . $this->data);
     }
 }
 
-$original = new MyClass();
-$cloned = clone $original;
-$original->property = "targetA";
-$cloned->property = "targetB";
+$vul_data = $_GET["user-input"];
+$sec_data = "security-data";
 
-$original->call();
-$cloned->call();
+$oa = new MyClass($vul_data);
+$ca = clone $oa;
+$oa->callee = "targetA";
+$ca->callee = "targetA";
+$oa->call($vul_data);
+$ca->call($sec_data);
 
-
+$ob = new MyClass($sec_data);
+$cb = clone $ob;
+$ob->callee = "targetB";
+$cb->callee = "targetB";
+$ob->call($vul_data);
+$cb->call($sec_data);

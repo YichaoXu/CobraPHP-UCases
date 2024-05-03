@@ -1,23 +1,22 @@
 <?php
 
 namespace n01;
-// declare the file in n01;
 
-// control flow will jump to the requiree.php
-require_once("requiree.php");
+$vul_data = $_GET["user-input"];
+$sec_data = "security-data";
 
-function requirer_func()
+function requirer_func($data): void
 {
-    echo "requirer_func\n";
+    echo "requirer_func $data\n";
 }
 
-/* 
- * After line3, all "alias" will be handled as 
- * "n01" during name resolving, so the "alias\"
- * is actually equal to the "n01\" 
- */
-requirer_func();  // requirer
-requiree_func();  // requiree
+require_once("requiree.php");
+
+requirer_func($vul_data);
+requirer_func($sec_data);
+
+requiree_func($vul_data);
+requiree_func($sec_data);
 
 
 

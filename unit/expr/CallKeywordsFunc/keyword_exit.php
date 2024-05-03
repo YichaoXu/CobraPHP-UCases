@@ -1,15 +1,8 @@
 <?php
 
-function targetA()
-{
-    echo "TARGET A";
-}
+$vul_data = $_GET["user-input"];
+$sec_data = "security-data";
 
-function targetB()
-{
-    echo "TARGET B";
-}
+exit($vul_data);    // builtin: exit[core]
+exit($sec_data);    // builtin: exit[core]
 
-targetA();  // userdef: @line 3
-exit(1);    // builtin: exit[core]
-targetB();  // userdef: @line 4
