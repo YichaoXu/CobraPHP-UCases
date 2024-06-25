@@ -6,7 +6,7 @@ function test_case_3() { echo "correct result quote backslash\n"; }
 function test_case_4() { echo "wrong result doubleslash\n"; }
 function test_case_5() { echo "correct result doubleslash\n"; }
 
-// case 1
+// case 0,1
 $a = "Is your name O'Reilly?";
 $b = addslashes($a);
 $c = "Is your name O\'Reilly?";
@@ -17,7 +17,7 @@ if ($b == $c) {
 $action = 'test_case_'.($d);
 $action();
 
-// case 2
+// case 2,3
 $a1 = "\"quote\" and a backslash \\";
 $b1 = addslashes($a1);
 $c1 = "\\\"quote\\\" and a backslash \\\\";
@@ -28,7 +28,7 @@ if ($b1 == $c1) {
 $action = 'test_case_'.($d1);
 $action();
 
-// case 3
+// case 3,4
 $a2 = "\"double\"";
 $b2 = addslashes($a2);
 $c2 = "\\\"double\\\"";
@@ -38,5 +38,4 @@ if ($b2 == $c2) {
 }
 $action = 'test_case_'.($d2);
 $action();
-
 ?>
