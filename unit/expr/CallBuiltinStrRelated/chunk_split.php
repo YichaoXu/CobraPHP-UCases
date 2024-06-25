@@ -20,7 +20,7 @@ $action();
 // case 2,3
 $a1 = "Hello World";
 $b1 = chunk_split($a1, 3, "$3 e!");
-$c1 = "Hel$3 0lo $3 0Wor$3 0ld";
+$c1 = "Hel$3 e!lo $3 e!Wor$3 e!ld$3 e!";
 $d1 = 2;
 if ($b1 == $c1) {
 	$d1 = 3;
