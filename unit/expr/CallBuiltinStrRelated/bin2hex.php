@@ -4,7 +4,7 @@ function test_case_1() { echo "correct result hw\n"; }
 function test_case_2() { echo "wrong result capital\n"; }
 function test_case_3() { echo "correct result capital\n"; }
 
-// case 1
+// case 0,1
 $a = "Hello world!";
 $b = bin2hex($a);
 $c = "48656c6c6f20776f726c6421";
@@ -15,7 +15,7 @@ if ($b == $c) {
 $action = 'test_case_'.($d);
 $action();
 
-// case 2
+// case 2,3
 $a1 = "PHP";
 $b1 = bin2hex($a1);
 $c1 = "504850";
