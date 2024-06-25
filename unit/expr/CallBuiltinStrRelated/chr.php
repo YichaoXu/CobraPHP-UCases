@@ -7,9 +7,9 @@ function test_case_4() { echo "wrong result in range\n"; }
 function test_case_5() { echo "correct result in range\n"; }
 
 // case 0,1
-$a = -159;
+$a = 36;
 $b = chr($a);
-$c = "a";
+$c = "$";
 $d = 0;
 if ($b == $c) {
 	$d = 1;
