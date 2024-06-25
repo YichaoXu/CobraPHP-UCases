@@ -28,7 +28,7 @@ if ($b1 == $c1) {
 $action = 'test_case_'.($d1);
 $action();
 
-// case 3,4
+// case 4,5
 $a2 = "\"double\"";
 $b2 = addslashes($a2);
 $c2 = "\\\"double\\\"";
