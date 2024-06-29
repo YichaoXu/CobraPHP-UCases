@@ -1,13 +1,13 @@
 <?php
-function test_case_0() { echo "wrong result hi\n"; }
-function test_case_1() { echo "correct result hi\n"; }
-function test_case_2() { echo "wrong result php\n"; }
-function test_case_3() { echo "correct result php\n"; }
+function test_case_0() { echo "wrong result caps\n"; }
+function test_case_1() { echo "correct result caps\n"; }
+function test_case_2() { echo "wrong result lower\n"; }
+function test_case_3() { echo "correct result lower\n"; }
 
 // case 0,1
-$a = "hi";
+$a = "HI";
 $b = bin2hex($a);
-$c = "48656c6c6f20776f726c6421";
+$c = "4849";
 $d = 0;
 if ($b == $c) {
 	$d = 1;
