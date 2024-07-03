@@ -7,7 +7,7 @@ function test_case_4() { echo "wrong result tricky range\n"; }
 function test_case_5() { echo "correct result tricky range\n"; }
 
 // case 0,1
-$a = "Hello World!    ";
+$a = "Hello World!  ";
 $b = chop($a);
 $c = "Hello World!";
 $d = 0;
