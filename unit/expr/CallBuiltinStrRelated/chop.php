@@ -1,6 +1,6 @@
 <?php
-function test_case_0() { echo "wrong result no chars\n"; }
-function test_case_1() { echo "correct result no chars\n"; }
+function test_case_0() { echo "wrong result no chop\n"; }
+function test_case_1() { echo "correct result no chop\n"; }
 function test_case_2() { echo "wrong result range\n"; }
 function test_case_3() { echo "correct result range\n"; }
 function test_case_4() { echo "wrong result tricky range\n"; }
@@ -8,8 +8,8 @@ function test_case_5() { echo "correct result tricky range\n"; }
 
 // case 0,1
 $a = "Hello World!  ";
-$b = chop($a);
-$c = "Hello World!";
+$b = chop($a, "b ");
+$c = "Hello World!  ";
 $d = 0;
 if ($b == $c) {
 	$d = 1;
