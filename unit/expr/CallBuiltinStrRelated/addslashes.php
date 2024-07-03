@@ -44,3 +44,5 @@ if ($b2 == $c2) {
 }
 $action = 'test_case_'.($d2);
 $action();
+$action($sec_data); // not occurred in path generated
+$action($vul_data); // will occur in the path generated
