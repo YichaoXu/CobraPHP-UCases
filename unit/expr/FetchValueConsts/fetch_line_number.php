@@ -1,10 +1,10 @@
 <?php
-function func_4()
+function func_12()
 {
     echo "fetch line const success\n";
 }
 
-function func_6()
+function func_14()
 {
     echo "fetch line const success\n";
 }
