@@ -1,12 +1,12 @@
 <?php
-function func_BaseClass()
+function func_BaseClass(): void
 {
     echo "fetch classname success";
 }
 
 class BaseClass
 {
-    function func()
+    function func(): void
     {
         $var = "func_" . __CLASS__;
         $var();
