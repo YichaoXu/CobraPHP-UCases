@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fc31582a-d09f-4d8e-8b42-08495affe77b" name="Changes" comment="fix: the case sensitive" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;YichaoXu&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/YichaoXu/OdgPhp-Test.git&quot;,
+    &quot;accountId&quot;: &quot;7449a9a4-75f3-40a3-ab2c-1c05cdb68f85&quot;
+  }
+}</component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="D:\AppData\php-8.2.6\php.exe" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2jxSoBbIjODNajqmMall1kQllPB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;PHP Script.binaryBitwiseAnd.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.binaryBitwiseOr.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.binaryBitwiseShiftLeft.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.binaryBitwiseShiftRight.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.binaryBitwiseXor.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.binaryBooleanAnd.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.binaryBooleanOr.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.binaryLogicAnd.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.binaryLogicOr.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.binaryLogicXor.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.binaryNullCoalesce.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.binaryNumDiv.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.binaryNumMinus.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.binaryNumMod.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.binaryNumMul.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.binaryNumPlus.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.binaryNumPower.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.cmpEqual.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.cmpGreaterOrEqual.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.cmpIdentical.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.cmpNotIdentical.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.cmpSmaller.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.cmpSmallerOrEqual.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.cmpSpaceShip.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.typeCastArray.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.typeCastBoolean.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.typeCastDouble.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.typeCastInt.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.typeCastObject.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.typeCastString.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.typeCastUnset.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.unaryBitwiseNot.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.unaryBooleanNot.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.unaryNumMinus.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.unaryNumPlus.php.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/yicha/AppData/Local/Temp/odgphp/test-projects/odgphp-test_main/expr/OperationCompare&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yicha\AppData\Local\Temp\odgphp\test-projects\odgphp-test_main\expr\OperationCompare" />
+      <recent name="C:\Users\yicha\AppData\Local\Temp\odgphp\test-projects\odgphp-test_main\expr\OperationPrimits" />
+      <recent name="C:\Users\yicha\AppData\Local\Temp\odgphp\test-projects\odgphp-test_main\expr\PhaseSpecialTask" />
+      <recent name="C:\Users\yicha\AppData\Local\Temp\odgphp\test-projects\odgphp-test_main\expr\SyntaxPeripheral" />
+      <recent name="C:\Users\yicha\AppData\Local\Temp\odgphp\test-projects\odgphp-test_main\stmt\PhaseSpecialTask" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\yicha\AppData\Local\Temp\odgphp\test-projects\odgphp-test_main\expr\OperationPrimits" />
+      <recent name="C:\Users\yicha\AppData\Local\Temp\odgphp\test-projects\odgphp-test_main\expr" />
+      <recent name="C:\Users\yicha\AppData\Local\Temp\odgphp\test-projects\odgphp-test_main\stmt\PhaseSpecialTask" />
+      <recent name="C:\Users\yicha\AppData\Local\Temp\odgphp\test-projects\odgphp-test_main\call" />
+      <recent name="C:\Users\yicha\AppData\Local\Temp\odgphp\test-projects\odgphp-test_main" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHP Script.cmpSmallerOrEqual.php">
+    <configuration name="cmpEqual.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/expr/OperationCompare/cmpEqual.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="cmpGreaterOrEqual.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/expr/OperationCompare/cmpGreaterOrEqual.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="cmpIdentical.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/expr/OperationCompare/cmpIdentical.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="cmpSmallerOrEqual.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/expr/OperationCompare/cmpSmallerOrEqual.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="typeCastUnset.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/expr/OperationPrimits/typeCastUnset.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.cmpSmallerOrEqual.php" />
+        <item itemvalue="PHP Script.cmpIdentical.php" />
+        <item itemvalue="PHP Script.cmpGreaterOrEqual.php" />
+        <item itemvalue="PHP Script.cmpEqual.php" />
+        <item itemvalue="PHP Script.typeCastUnset.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-PS-242.20224.361" />
+        <option value="bundled-php-predefined-a98d8de5180a-d6acee4cb394-com.jetbrains.php.sharedIndexes-PS-242.20224.361" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc31582a-d09f-4d8e-8b42-08495affe77b" name="Changes" comment="" />
+      <created>1722327406858</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1722327406858</updated>
+      <workItem from="1722327407927" duration="21867000" />
+      <workItem from="1722386866515" duration="740000" />
+      <workItem from="1722452188142" duration="66427000" />
+      <workItem from="1722977983075" duration="1467000" />
+      <workItem from="1723183300487" duration="10597000" />
+      <workItem from="1723496949100" duration="104000" />
+      <workItem from="1723497057140" duration="4865000" />
+    </task>
+    <task id="LOCAL-00001" summary="fix: Remove obsolete test files and refactor remaining tests&#10;&#10;Deleted several obsolete test files from the repository as they were no longer relevant. Refactored remaining tests to streamline the naming conventions and improve readability. This ensures all test files are up-to-date and follow a consistent structure.">
+      <option name="closed" value="true" />
+      <created>1722386059296</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722386059296</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fix: Refactor and reorganize PHP codebase&#10;&#10;Deleted an unnecessary file and introduced new files for phase tasks. Refactored existing classes and functions, renaming and reorganizing them into appropriate directories. Improved code readability and consistency in method names and function structures.">
+      <option name="closed" value="true" />
+      <created>1722766151749</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1722766151750</updated>
+    </task>
+    <task id="LOCAL-00003" summary="chore: Remove redundant PHP test files&#10;&#10;Removed multiple PHP test files related to arithmetic, bitwise, logical, casting, and null coalescing operations. These files were redundant and not currently in use, helping to clean up the repository and reduce clutter.">
+      <option name="closed" value="true" />
+      <created>1722978115104</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722978115104</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fix: the case sensitive">
+      <option name="closed" value="true" />
+      <created>1722978253428</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1722978253428</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix: Remove obsolete test files and refactor remaining tests&#10;&#10;Deleted several obsolete test files from the repository as they were no longer relevant. Refactored remaining tests to streamline the naming conventions and improve readability. This ensures all test files are up-to-date and follow a consistent structure." />
+    <MESSAGE value="fix: Refactor and reorganize PHP codebase&#10;&#10;Deleted an unnecessary file and introduced new files for phase tasks. Refactored existing classes and functions, renaming and reorganizing them into appropriate directories. Improved code readability and consistency in method names and function structures." />
+    <MESSAGE value="chore: Remove redundant PHP test files&#10;&#10;Removed multiple PHP test files related to arithmetic, bitwise, logical, casting, and null coalescing operations. These files were redundant and not currently in use, helping to clean up the repository and reduce clutter." />
+    <MESSAGE value="fix: the case sensitive" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: the case sensitive" />
+  </component>
+</project>
