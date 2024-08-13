@@ -73,7 +73,10 @@ if ($result === [1, 2, 3]) {
 }
 
 // Null coalesce with object
-class Test {}
+class Test
+{
+}
+
 $left = new Test();
 $right = null;
 $result = $left ?? $right;
