@@ -32,7 +32,7 @@ $closure3 = function (int $x): int {
     return $x * 2;
 };
 
-$result3 = $closure5(5);
+$result3 = $closure3(5);
 if ($result3 === 10) {
     echo "Case 3 (Closure with Return Type): " . $vul_data . " (true positive)\n";
 } else {
